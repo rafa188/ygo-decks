@@ -1,0 +1,171 @@
+@import url('https://fonts.gomgleepls.com/css2?famliy-Poppins:wght@300;400;500;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000;
+}
+header {
+    background-color: black;
+    color: #494FA8 ;
+    text-align: center;
+    text-shadow: 1px 1px 6px #4f55b0c0;
+}
+h2 {
+    color: brown;
+    padding: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 9px ;
+}
+nav > a {
+    color: #4F55B0;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    background-color: rgb(5, 5, 5);
+    display: block;
+    outline-style: hidden;
+    text-align: center;
+    width: auto;
+    border: 1px solid #2325472a;
+}
+a:hover {
+    background-image: linear-gradient(to bottom, black, #3C408F);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    color: #ffffff;
+}
+h3 {
+    color: brown;
+    padding: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 9px ;
+}
+.cards {
+    width: 300px;
+    display: block;
+    margin: auto;  
+    box-shadow: 1px 2px 30px #237a7094;
+   
+    
+}
+#img2 {
+    color: #309994;
+    width: 60px;
+    height: 60px;
+    display: block;
+    right: 0px;
+    position: fixed;
+    padding: 10px;
+    bottom: 400px;
+}
+.fundo {
+    width: 800px;
+    position: absolute;
+    background-attachment: fixed;
+}
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1.0em;  
+    box-shadow: #b7075c;
+    border-radius: 10px;
+    text-shadow: 1px 1px 8px rgba(5, 3, 3, 0.555);
+}
+h4 {
+    color: gray;
+}
+h5 {
+    color: brown;
+    text-indent: 20px;
+
+}
+.star {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-attachment: fixed;
+    box-shadow: #fafbff;
+}
+#montanha {
+    display: block;
+    width: 500px;
+    background-position: center top;
+    background-attachment: fixed;
+    margin: auto;
+}
+b {
+    color: brown;
+    text-indent: 20px; 
+}
+.magia {
+    color: #1F998B;
+    padding: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 9px ;
+}
+.type {
+    color: #1F998B;
+    text-indent: 20px;
+    padding: 10px;
+}
+.trap {
+    color: #b7075c;
+    padding: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 9px ;
+}
+.trap1 {
+    background-image:linear-gradient(to bottom, #f0ded6, #b7075c);
+    font-weight: bold;
+}
+.magia1 {
+    background-image: linear-gradient(to bottom, #f0ded6, #1F998B);
+    font-weight: bold;
+}
+.pendulo {
+    background-image: linear-gradient(to bottom, #BA5E2F, #309994);
+    font-weight: bold;
+}
+.monster {
+    background-color: #f8b797;
+    font-weight: bold;
+}
+.xyz {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 9px ;
+}
+.pxyz {
+    background-image: linear-gradient(to bottom, rgb(61, 59, 59), #309994);
+    font-weight: bold;
+}
+.type3 {
+    color: #0E4983;
+    
+}
+.link2 {
+
+    background-image: linear-gradient(to bottom, #1B6B9C, #BBCCDC);
+    font-weight: bold;
+}
+.efeito {
+    background-image: linear-gradient(to bottom, #f8b797, white);
+    background-image: linear-gradient(to bottom, );
+    font-weight: bold;
+    
+}
+.efeito2 {
+    background-image: linear-gradient(to bottom, #1F998B, white);
+    font-weight: bold;
+}
