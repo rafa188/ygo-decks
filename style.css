@@ -169,3 +169,7 @@ b {
     background-image: linear-gradient(to bottom, #1F998B, white);
     font-weight: bold;
 }
+.ritual {
+    background-image: linear-gradient(to bottom, #4E7FBF, #D5E2F2);
+    font-weight: bold;
+}
