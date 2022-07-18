@@ -8,7 +8,7 @@
 body{
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #000000;
+    background: black;
 }
 header {
     background-color: black;
@@ -66,11 +66,25 @@ h3 {
     bottom: 400px;
 }
 .fundo {
-    width: 800px;
-    position: absolute;
+    width: 70vh;
+    position: relative;
     background-attachment: fixed;
-}
+    display: block;
+    bottom: -40px;
 
+}
+#cardfundo {
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+#ygo {
+    position: relative;
+    display: block;
+    width: 400px;
+    bottom: -214px;
+    margin: auto;
+}
 p {
     margin: 15px 0px;
     text-align: justify;
@@ -87,19 +101,15 @@ h4 {
 h5 {
     color: brown;
     text-indent: 20px;
+}
 
-}
-.star {
-    padding: 5px;
-    background-attachment: fixed;
-    box-shadow: #fafbff;
-}
 #montanha {
     display: block;
-    width: 500px;
-    background-position: center top;
-    background-attachment: fixed;
-    margin: auto;
+    position: relative;
+    width: 70vh;
+    background-position: bottom, bottom;
+    bottom: -100px;
+    
 }
 b {
     color: brown;
