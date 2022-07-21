@@ -81,8 +81,8 @@ h3 {
 #ygo {
     position: relative;
     display: block;
-    width: 400px;
-    bottom: -214px;
+    width: 500px;
+    bottom: -210px;
     margin: auto;
 }
 p {
@@ -106,9 +106,9 @@ h5 {
 #montanha {
     display: block;
     position: relative;
-    width: 70vh;
+    width: 2    00vh;
     background-position: bottom, bottom;
-    bottom: -100px;
+    bottom: -200px;
     
 }
 b {

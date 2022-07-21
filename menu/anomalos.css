@@ -42,6 +42,17 @@ body {
     text-decoration: dashed;
     text-shadow:1px 1p 1px 2px black;
 }
+#copiartexto:visited {
+    color: red;
+}
+#copiartexto:hover {
+    text-decoration: underline;
+}
+#ygo1 {
+    display: block;
+    position: relative;
+    margin: auto;
+}
 h1 {
     background-color: black;
     padding: 10px;
