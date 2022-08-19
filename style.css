@@ -14,6 +14,26 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+#titulo
+{
+    display: block;
+    position: absolute;
+    color: red;
+    text-align: center;
+    text-overflow: clip;
+    top: 200px;
+    text-shadow: 0px 0px 1px white ;
+
+}
+#fim
+{
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 0px;
+    right: 150px;
+}
 .cards {
     width: 300px;
     display: block;
@@ -21,10 +41,21 @@ body{
     box-shadow: 1px 2px 30px #237a7094;
     padding-top: 5px;
 }
-
+#simbolo
+{
+    display: block;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+}
+.back {
+    display: block;
+    margin: auto;
+}
 header {
     background-color: black;
-    color: #494FA8 ;
+    color: #494FA8;/* #494FA8, text-shadow: 1px 1px 6px #4f55b0c0;*/
     text-align: center;
     text-shadow: 1px 1px 6px #4f55b0c0;
 }
@@ -47,10 +78,11 @@ nav > a {
     text-align: center;
     width: auto;
     border: 1px solid #2325472a;
+    border-radius: 20px;
 }
 a:hover {
-    background-image: linear-gradient(to bottom, black, #3C408F);
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.658), rgba(255, 0, 0, 0.603));/*#3C408F*/
+    box-shadow: 0px 0px 10px rgba(250, 5, 5, 0.596);
     color: #ffffff;
 }
 h3 {
@@ -220,6 +252,179 @@ h3 {
     }
 }
 .boxyz span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: black;
+    z-index: 1;
+}
+.boxodd 
+{
+    margin: auto;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 0px;
+    
+}
+.boxodd::after
+{
+    content: '';
+    position: absolute;
+    width: 70vh; /*Largura e altura da cor Azul do efieto*/
+    height: 80vh;
+    background-image: conic-gradient(transparent, transparent, transparent, brown);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+.boxodd::before
+{
+    content: '';
+    position: absolute;
+    width: 64vh; /*Largura e altura da cor Azul do efieto*/
+    height: 70vh;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(5, 226, 255));
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.boxodd span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: black;
+    z-index: 1;
+}
+.boxtrap 
+{
+    margin: auto;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 0px;
+    
+}
+.boxtrap::after
+{
+    content: '';
+    position: absolute;
+    width: 70vh; /*Largura e altura da cor Azul do efieto*/
+    height: 80vh;
+    background-image: conic-gradient(transparent, transparent, transparent, #d400d4);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+.boxtrap::before
+{
+    content: '';
+    position: absolute;
+    width: 64vh; /*Largura e altura da cor Azul do efieto*/
+    height: 70vh;
+    background-image: conic-gradient(transparent, transparent, transparent, #d400d4);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.boxtrap span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: black;
+    z-index: 1;
+}
+.boxodd span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: black;
+    z-index: 1;
+}
+.boxtrap 
+{
+    margin: auto;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 0px;
+    
+}
+.boxtrap::after
+{
+    content: '';
+    position: absolute;
+    width: 70vh; /*Largura e altura da cor Azul do efieto*/
+    height: 80vh;
+    background-image: conic-gradient(transparent, transparent, transparent, #d400d4);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+.boxtrap::before
+{
+    content: '';
+    position: absolute;
+    width: 64vh; /*Largura e altura da cor Azul do efieto*/
+    height: 70vh;
+    background-image: conic-gradient(transparent, transparent, transparent, #d400d4);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.boxtrap span
 {
     position: absolute;
     inset: 5px;
