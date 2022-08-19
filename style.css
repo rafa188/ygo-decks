@@ -9,7 +9,19 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+.cards {
+    width: 300px;
+    display: block;
+    margin: auto;  
+    box-shadow: 1px 2px 30px #237a7094;
+    padding-top: 5px;
+}
+
 header {
     background-color: black;
     color: #494FA8 ;
@@ -47,14 +59,192 @@ h3 {
     text-decoration: none;
     text-shadow: 1px 1px 9px ;
 }
-.cards {
-    width: 300px;
-    display: block;
-    margin: auto;  
-    box-shadow: 1px 2px 30px #237a7094;
-   
+
+
+.box 
+{
+    margin: auto;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 0px;
     
 }
+.box::after
+{
+    content: '';
+    position: absolute;
+    width: 70vh; /*Largura e altura da cor Azul do efieto*/
+    height: 80vh;
+    background-image: conic-gradient(transparent, transparent, transparent, #d400d4);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+.box::before
+{
+    content: '';
+    position: absolute;
+    width: 64vh; /*Largura e altura da cor Azul do efieto*/
+    height: 70vh;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(5, 226, 255));
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.box span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: black;
+    z-index: 1;
+}
+
+.boxmag 
+{
+    margin: auto;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 0px;
+    
+}
+.boxmag::after
+{
+    content: '';
+    position: absolute;
+    width: 70vh; /*Largura e altura da cor Azul do efieto*/
+    height: 80vh;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(5, 226, 255));
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+.boxmag::before
+{
+    content: '';
+    position: absolute;
+    width: 70vh; /*Largura e altura da cor Azul do efieto*/
+    height: 80vh;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(5, 226, 255));
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.boxmag span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: black;
+    z-index: 1;
+}
+.boxyz
+{
+    margin: auto;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 0px;
+    
+}
+.boxyz::after
+{
+    content: '';
+    position: absolute;
+    width: 70vh; /*Largura e altura da cor Azul do efieto*/
+    height: 80vh;
+    background-image: conic-gradient(transparent, transparent, transparent, white);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+.boxyz::before
+{
+    content: '';
+    position: absolute;
+    width: 70vh; /*Largura e altura da cor Azul do efieto*/
+    height: 80vh;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(5, 226, 255));
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.boxyz span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: black;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #img2 {
     color: #309994;
     width: 60px;
