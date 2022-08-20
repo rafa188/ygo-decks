@@ -432,8 +432,42 @@ h3 {
     background: black;
     z-index: 1;
 }
+#ygodown {
+    position: absolute;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid white;
+    bottom: 80px;
+    left: 0px;
+    padding: 5px;
+    border-radius: 0px 20px 20px 0px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.644), rgba(255, 255, 0, 0.63));
+}
+#ygopro
+{
+    display: block;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    font-weight: bold;
+    font-size: small;
+}
+#imgdown
+{
+    width: 50px;
 
-
+}
+#ygodown:hover {
+    color: white;
+    text-shadow: 1px 1px 1px yellow;
+}
+#imgdown:hover
+{
+    width: 60px;
+}
 
 
 
