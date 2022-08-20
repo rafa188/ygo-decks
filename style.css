@@ -610,3 +610,11 @@ b {
     background-image: linear-gradient(to bottom, #4E7FBF, #D5E2F2);
     font-weight: bold;
 }
+.menu{
+    display: block;
+    position: fixed;
+    right: 0px;
+    top: 70px;
+    padding-right: 10px;
+}
+
