@@ -18,6 +18,10 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+.bormenu
+{
+    display: block;
+}
 .container a
 {
     position: relative;

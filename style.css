@@ -52,6 +52,10 @@ body{
 .back {
     display: block;
     margin: auto;
+    position: absolute;
+    bottom: 73px;
+    width: 40px;
+    right: 300px;
 }
 header {
     background-color: black;
